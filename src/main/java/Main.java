@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        int[] answer = solution(new String[]{"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"});
+        int[] answer = solution(new String[]{"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA", "EMERALD"});
         Arrays.stream(answer).forEach(
                 x -> System.out.println(x)
         );
